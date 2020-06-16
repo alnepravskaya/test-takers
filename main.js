@@ -73,13 +73,13 @@
             this.selected.className = 'selected';
         }
 
-        async getUserInfo(id) {
-            return await fetch(`https://hr.oat.taocloud.org/v1/user/${id}`)
+        getUserInfo(id) {
+            return fetch(`https://hr.oat.taocloud.org/v1/user/${id}`)
                 .then((response) => response.json())
         }
 
-        async getUsers(number = 20) {
-            return await fetch(`https://hr.oat.taocloud.org/v1/users?limit=${number}&offset=0`)
+        getUsers(number = 20) {
+            return fetch(`https://hr.oat.taocloud.org/v1/users?limit=${number}&offset=0`)
                 .then((response) => response.json())
         }
 
