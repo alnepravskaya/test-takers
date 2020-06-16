@@ -1,4 +1,4 @@
-<b>The Exercise</b>
+<b>The Exercise</b><br>
 The goal of the exercise is to create a list of test-takers (test-takers can be seen as
 users).<br>
 The homework has to be done in JavaScript (no TypeScript or other languages)<br>
