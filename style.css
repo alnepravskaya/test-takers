@@ -1,0 +1,52 @@
+.tt {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    display: flex;
+}
+
+.tt .list {
+    padding-right: 20px;
+}
+
+.tt .list li {
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.tt .list li.selected {
+    color: red;
+}
+
+.tt .list li:hover {
+    color: pink;
+}
+
+.tt .info {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.tt h1 {
+    margin: 10px 0;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.tt img {
+    width: 128px;
+    height: 128px;
+
+}
+
+@media (max-width: 660px) {
+    .tt {
+        flex-direction: column-reverse;
+    }
+}
